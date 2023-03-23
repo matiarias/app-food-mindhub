@@ -15,7 +15,7 @@ body {
   background-color: #ddddc1;
 }
 
-/* --------------------------- Nav ------------------------- */
+/* ------------------------------ NavBar ---------------------------- */
 
 .nav {
   position: fixed;
@@ -30,6 +30,30 @@ body {
   align-items: center;
   border-bottom: 4px solid #a53f44;
   backdrop-filter: blur(10px);
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -8px;
+}
+
+.nav-left span {
+  position: relative;
+  color: #dfdede;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.nav-left span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #297c29, #b9b91c);
 }
 
 .nav-logo {
@@ -182,7 +206,7 @@ body {
   font-weight: bold;
 }
 
-/* -------------------------- pagina pizzas ---------------------------- */
+/* ----------------------------- pagina pizzas ---------------------------- */
 
 .container-background {
   position: relative;
@@ -204,3 +228,71 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* ---------------------------------- footer ------------------------------- */
+
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to right, #251314, #79292d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-title {
+  position: relative;
+  color: #dfdede;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.footer-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #297c29, #b9b91c);
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-icons span i {
+  font-size: 2rem;
+}
+
+.footer-icons span:nth-child(1) {
+  color: #297c29;
+}
+
+.footer-icons span:nth-child(2) {
+  color: #597fc5;
+}
+
+.footer-icons span:nth-child(3) {
+  color: #b9b91c;
+}
+/* ----------------------------------------------------------------------------- */

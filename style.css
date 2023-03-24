@@ -259,6 +259,7 @@ body {
 
 .footer-icons span i {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .footer-icons span:nth-child(1) {
@@ -273,7 +274,7 @@ body {
   color: #dfdede;
 }
 
-/* --------------------- CSS para todas las paginas de recetas ----------------- */
+/* -------------------- CSS para todas las paginas de recetas ------------------ */
 
 #body-pag-pizzas {
   min-height: 100vh;
@@ -405,3 +406,12 @@ body {
 .card-procedimientos ol li {
   font-size: 0.8rem;
 }
+
+/* --------------------- pagina de recetas de pastas -------------------- */
+
+#body-pag-pastas {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* --------------------- pagina de recetas de carnes ---------------------- */

@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: -8px;
+  gap: 8px;
 }
 
 .nav-left span {
@@ -435,4 +435,347 @@ body {
 
 .recetas-title-carnes2 {
   color: #dfdede;
+}
+
+/* ------------------------------ media queries ------------------------------- */
+
+/* -------------------------- screen size sm ------------------------ */
+
+@media screen and (max-width: 640px) {
+  /* ------------------- navbar ---------------------- */
+  .nav {
+    height: auto;
+    padding: 1rem 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-left span {
+    font-size: 1rem;
+  }
+
+  .nav-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-links a li {
+    font-size: 0.9rem;
+  }
+
+  /* ----------------------- hero ----------------------- */
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  /* ------------------------- home section ---------------------- */
+
+  .home-section-title {
+    font-size: 2rem;
+  }
+
+  .card-overlay span {
+    font-size: 1.8rem;
+  }
+
+  .card-link {
+    padding: 0.3rem 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  /* ----------------------- todas las paginas de recetas ---------------------- */
+
+  .container-background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .recetas-title {
+    font-size: 1.8rem;
+  }
+
+  .recetas-subtitle {
+    font-size: 1.2rem;
+  }
+
+  /* --------------------------- footer -------------------------- */
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .footer-info {
+    gap: 0.7rem;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+  }
+
+  .footer-icons {
+    gap: 1rem;
+  }
+
+  .footer-icons span i {
+    font-size: 1.5rem;
+  }
+}
+
+/* ------------------------- screen size md ------------------------------- */
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  /* ------------------- navbar ---------------------- */
+  .nav {
+    height: auto;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-left span {
+    font-size: 1.2rem;
+  }
+
+  .nav-logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-links a li {
+    font-size: 1rem;
+  }
+
+  /* ----------------------- hero ----------------------- */
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  /* ------------------------- home section ---------------------- */
+
+  .home-section-title {
+    font-size: 2.3rem;
+  }
+
+  .card-overlay span {
+    font-size: 2rem;
+  }
+
+  .card-link {
+    padding: 0.3rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* ----------------------- todas las paginas de recetas ---------------------- */
+
+  .container-background {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+  }
+
+  .recetas-title {
+    font-size: 2rem;
+  }
+
+  .recetas-subtitle {
+    font-size: 1.5rem;
+  }
+
+  /* --------------------------- footer -------------------------- */
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .footer-info {
+    gap: 0.7rem;
+  }
+
+  .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+  }
+
+  .footer-icons span i {
+    font-size: 1.8rem;
+  }
+}
+
+/* -------------------------- screen size xl ------------------------ */
+
+@media screen and (min-width: 1280px) {
+  /* ------------------- navbar ---------------------- */
+  .nav {
+    height: auto;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-left span {
+    font-size: 2rem;
+  }
+
+  .nav-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .nav-links {
+    gap: 2rem;
+  }
+
+  .nav-links a li {
+    font-size: 1.8rem;
+  }
+
+  /* ----------------------- hero ----------------------- */
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2.5rem;
+  }
+
+  /* ------------------------- home section ---------------------- */
+
+  .home-section-title {
+    font-size: 3rem;
+  }
+
+  .card-overlay span {
+    font-size: 3rem;
+  }
+
+  .card-link {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+
+  /* ----------------------- todas las paginas de recetas ---------------------- */
+
+  .container-background {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+  }
+
+  .recetas-title {
+    font-size: 4rem;
+  }
+
+  .recetas-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .container-grid-recetas {
+    padding: 3rem;
+    gap: 3rem;
+  }
+
+  .card-image-receta {
+    height: 300px;
+  }
+
+  .card-title-receta {
+    font-size: 1.8rem;
+  }
+
+  .card-title-ingredientes {
+    font-size: 1.3rem;
+  }
+
+  .card-ingredientes {
+    padding: 1rem;
+  }
+
+  .card-ingredientes ul li {
+    font-size: 1rem;
+  }
+
+  .card-title-procedimiento {
+    font-size: 1.3rem;
+  }
+
+  .card-procedimientos {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .card-procedimientos ol li {
+    font-size: 1rem;
+  }
+
+  /* --------------------------- footer -------------------------- */
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .footer-info {
+    gap: 1rem;
+  }
+
+  .footer-title {
+    font-size: 2rem;
+  }
+
+  .footer-icons {
+    gap: 2rem;
+  }
+
+  .footer-icons span i {
+    font-size: 2.5rem;
+  }
 }

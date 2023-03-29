@@ -44,11 +44,11 @@
 
     <main class="sobre-nosotros">
       <section class="sobre-nosotros-info">
-        <h1>Nuestra Historia</h1>
+        <h1 class="sobre-nosotros-title">Nuestra Historia</h1>
 
         <article class="sobre-nosotros-info-card">
           <img
-            src="../assets/sobre-nosotros/imagen2.jpg"
+            src="../assets/sobre-nosotros/imagen-2.jpg"
             alt="imagen de comida barbacoa"
           />
           <p>
@@ -63,7 +63,7 @@
 
         <article class="sobre-nosotros-info-card">
           <img
-            src="../assets/sobre-nosotros/imagen3.jpg"
+            src="../assets/sobre-nosotros/imagen-3.jpg"
             alt="imagen de ananas, manzanas, naranjas"
           />
           <p>
@@ -83,7 +83,7 @@
 
         <article class="sobre-nosotros-info-card">
           <img
-            src="../assets/sobre-nosotros/imagen4.jpg"
+            src="../assets/sobre-nosotros/imagen-4.jpg"
             alt="imagen de desayuno con frutas y huevo"
           />
           <p>
@@ -105,54 +105,54 @@
       </section>
 
       <section class="contacto">
-        <h2>Formulario de Contacto</h2>
+        <h2 class="contacto-title">Formulario de Contacto</h2>
 
         <article class="contacto-container">
-          <div class="img-contacto">
-            <img
-              src="../assets/sobre-nosotros/contacto.png"
-              alt="Imagen de contacto"
+          <img
+            class="contacto-img"
+            src="../assets/sobre-nosotros/contacto.png"
+            alt="Imagen de contacto"
+          />
+
+          <form class="form-contacto">
+            <label for="nombre">Nombre:</label>
+
+            <input
+              type="text"
+              class="input_contacto"
+              placeholder="Pablo"
+              id="nombre"
             />
-          </div>
-          <form class="form_contacto">
-            <div class="input_nombre">
-              <label for="nombre">Nombre:</label>
-              <input
-                type="text"
-                class="input_contacto"
-                placeholder="Pablo"
-                id="nombre"
-              />
-            </div>
-            <div class="input_apellido">
-              <label for="apellido">Apellido:</label>
-              <input
-                type="text"
-                class="input_contacto"
-                placeholder="Perez"
-                id="apellido"
-              />
-            </div>
-            <div class="input_email">
-              <label for="email">Email:</label>
-              <input
-                type="text"
-                class="input_contacto"
-                placeholder="pabloperez@hotmail.com"
-                id="email"
-              />
-            </div>
-            <div class="input_mensaje">
-              <label for="mensaje">Mensaje:</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="30"
-                class="input_contacto"
-                rows="5"
-                placeholder="Escribe tu mensaje"
-              ></textarea>
-            </div>
+
+            <label for="apellido">Apellido:</label>
+
+            <input
+              type="text"
+              class="input_contacto"
+              placeholder="Perez"
+              id="apellido"
+            />
+
+            <label for="email">Email:</label>
+
+            <input
+              type="email"
+              class="input_contacto"
+              placeholder="pabloperez@hotmail.com"
+              id="email"
+            />
+
+            <label for="mensaje">Mensaje:</label>
+
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="5"
+              maxlength="100"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+
             <button class="btn-form">Enviar</button>
           </form>
         </article>

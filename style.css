@@ -608,10 +608,11 @@ body {
 
   .nav-links {
     gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .nav-links a li {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   /* ----------------------- hero ----------------------- */
@@ -682,10 +683,14 @@ body {
   }
 
   .footer-icons span i {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   /* ------------------------- Pagina Sobre Nosotros --------------------------- */
+
+  #body-sobre-nosotros {
+    padding-top: 150px;
+  }
 
   .sobre-nosotros-title {
     font-size: 1.8rem;
